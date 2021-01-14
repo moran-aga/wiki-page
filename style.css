@@ -100,30 +100,6 @@ h2{
 }
 
 
-/*
-.names{
-    background-color: none;
-    color: black;
-}
-#ul {
-    list-style-type: square;
-    font-size: 50px;
-
-}
-#ul li{
-    display: block;
-    color: black;
-    background-color: black;
-    float:none;
-    
-    
-}
-
-#ul a:hover{
-
-}
-*/
-
 .container {
     position: relative;
     text-align: center;
