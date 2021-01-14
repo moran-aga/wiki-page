@@ -163,3 +163,30 @@ h2{
          left: 20%;
          transform: translate(-50%, -50%);
  }
+
+ .join-trip{
+     width: 800px;
+     background-color: rgba(0,0,0,6);
+     margin-top: auto;
+     color: white;
+     padding:10px 0px 10px 0px ;
+     text-align: center;
+     border-radius: 15px 15px 0px 0px;
+
+ }
+.form{   
+   background-color:rgba(0,0,0,0.5);
+   width: 800px;
+   margin: auto;
+   
+}
+
+form{
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+#labal{
+color: white;
+font-size: 40px;
+}
