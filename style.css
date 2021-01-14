@@ -63,10 +63,37 @@ ul li.active a{
      color: white;
  }
 
- main{
+ .middle{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(3.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
- 
+
+.destination-images {
+    background-color: whitesmoke;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    padding: 5px;
+}
+
+.images{
+    max-width: 1200px;
+    margin: auto; 
+    width: 60%;
+    padding: 10px;
+}
+
+.img-box{
+    height:200px;
+    width:100% ;
+    margin: 8px;
+    padding: 5px;
+}
