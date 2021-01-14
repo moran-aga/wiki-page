@@ -127,7 +127,7 @@ h2{
   left: 72%;
   transform: translate(-50%, -50%);
 }
-}
+
 
 #about:after,  #about:before {
   content: '';
@@ -136,3 +136,30 @@ h2{
   margin: 0 10px;
   padding: 10px;
 } 
+
+.button{
+    position: absolute;
+     top: 80%;
+     left: 70%;
+     transform: translate(-50%, -50%);
+}
+
+.btn{
+      border:1px solid white;
+      padding: 10px 30px;
+      color: white;
+      text-decoration: none;
+      transition:  0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff ;
+     color: #000;
+ }
+
+ .video {
+        position: relative;
+         top: 80%;
+         left: 20%;
+         transform: translate(-50%, -50%);
+ }
