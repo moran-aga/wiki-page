@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
 }
 
 header{
@@ -28,6 +30,13 @@ ul li a{
     border: 1px solid transparent;
     transition: 0.6s ease;
 }
+
+@media screen and (max-width: 600px) {
+    ul li a {
+      float: none;
+      width: 100%;
+    }
+  }
 
  ul li a:hover{
      background-color: #fff ;
@@ -335,3 +344,71 @@ figure:hover+span {
 		opacity: 1;
 	}
 }
+
+.button-bottom{
+    position: relative;
+    left: 40%;
+    top: -90px;
+}
+
+#button-bottom-gallery{
+    position: relative;
+    left: 45%;
+    top: 20px;
+}
+
+.container-1{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    padding:50px;
+    justify-content: space-between;
+    
+    
+}
+
+.container-1 div{
+    color: blanchedalmond;
+    
+}
+
+.box-1{
+    flex: 1;
+    text-decoration: none;
+    color: oldlace;
+    width: 15%;
+
+}
+
+.box-2{
+    flex: 1;
+    text-decoration: none;
+    color: oldlace;
+    width: 15%;
+
+}
+
+.box-3{
+    flex: 1;
+    text-decoration: none;
+    color: oldlace;
+    width: 15%;
+
+}
+
+#summary{
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align: center;
+    border:1px solid blanchedalmond;
+    padding: 5px;
+    margin-left: 130px;
+    margin-right: 130px;
+    position: relative;
+    bottom: -10%;
+    text-transform: uppercase;
+}
+
+
