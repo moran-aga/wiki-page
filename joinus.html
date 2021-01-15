@@ -20,13 +20,19 @@
                <li class="active"><a href="joinus.html">join us</a></li>  
            </ul> 
         </div>
+        <div class="title">
+            <h1> LET YOUR DREAM VACATION BEGIN </h1>
+        </div>
+        <div class="button">
+            <a href="#main" class="btn">SUBMIT NOW</a>
+        </div> 
     </header>
 
-    <main> 
+    <main id=main>
         <div class="middle">
      <div class="form">
     <div class="join-trip"><h3>let us plan your dream trip</h3> </div>
-    <form >
+    <form>
         <label class="label"> Full Name:</label> <br>
         <input type="text"
                placeholder="Enter Your Name"
@@ -37,11 +43,18 @@
                placeholder="Enter Your Email Adress"
                id="email" 
                name="Email" required /> </br>
-        <label class="label"> Phone number:</label> <br>
+        <label class="label"> Phone Number:</label> <br>
         <input type="number"
                placeholder="Phone number"
                id="number"/> <br>
-        <button type="submit" >I WANT DREAM TRIP </button>
+        <label class="label">Choose Your Destination:</label><br>
+  <select id="dropdown" name="destination-pick">
+    <option value="thailand">Thailand</option>
+    <option value="London">London</option>
+    <option value="Paris">Paris</option>
+    <option value="Other">Other</option>
+  </select> <br>
+        <button type="submit" class="btn" id="button" >I WANT DREAM TRIP </button>
     </div>
     </form>
 </div>  

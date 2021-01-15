@@ -56,6 +56,7 @@ ul li.active a{
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     text-transform: uppercase;
  }
 
  .title h1{
@@ -140,6 +141,13 @@ h2{
 .button{
     position: absolute;
      top: 80%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#joinus-button{
+    position: absolute;
+     top: 80%;
      left: 70%;
      transform: translate(-50%, -50%);
 }
@@ -172,21 +180,44 @@ h2{
      padding:10px 0px 10px 0px ;
      text-align: center;
      border-radius: 15px 15px 0px 0px;
-
+     
  }
 .form{   
    background-color:rgba(0,0,0,0.5);
    width: 800px;
    margin: auto;
-   
+   color: white;
+   font-size: 25x;
+   position: relative;
+     top: 50%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+     border-radius: 15px 15px 0px 0px;
+     
+
 }
 
 form{
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 50px;
 }
 
-#labal{
-color: white;
-font-size: 40px;
+input{
+padding: 5px;
+width: 250px;
+margin-bottom: 5px;
+}
+
+#dropdown{
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+#button{
+    color: #000;
+}
+
+#button:hover{
+    background-color: #000 ;
+    color: #fff;
 }
