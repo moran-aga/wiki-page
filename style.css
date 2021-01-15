@@ -48,6 +48,7 @@ ul li.active a{
     color: #000;
 }
 
+
  .logo img{
      float: left;
      width: 150px;
@@ -411,4 +412,9 @@ figure:hover+span {
     text-transform: uppercase;
 }
 
-
+#video{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
