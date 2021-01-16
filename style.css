@@ -9,8 +9,14 @@
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
     height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-position: center;
+}
+#navbar {
+    position:fixed;
+    top:0;
+    left:0;
 }
 
 ul{
@@ -78,6 +84,7 @@ ul li.active a{
  .middle{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(3.jpg);
     height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-position: center;
 }
@@ -97,12 +104,18 @@ h2{
 }
 
 .images{
-    max-width: 1200px;
+    max-width: 80vw;
     margin: auto; 
     width: 60%;
     padding: 10px;
     
 }
+
+.responsive-img {
+    max-width: 100%;
+      height: auto;
+    
+    }
 
 .img-box{
     height:200px;
@@ -147,7 +160,7 @@ h2{
 
 #about:after,  #about:before {
   content: '';
-  width: 150px;
+  width: 10vmax;
   height: 2px;
   margin: 0 10px;
   padding: 10px;
@@ -188,26 +201,26 @@ h2{
  }
 
  .join-trip{
-     width: 800px;
+     width: 100vh;
      background-color: rgba(0,0,0,6);
-     margin-top: auto;
      color: white;
-     padding:10px 0px 10px 0px ;
+     padding:5px 0px 5px 0px ;
      text-align: center;
      border-radius: 15px 15px 0px 0px;
+     text-transform: capitalize;
      
  }
 .form{   
    background-color:rgba(0,0,0,0.5);
-   width: 800px;
-   margin: auto;
+   width: 100vh;
    color: white;
    font-size: 25x;
    position: relative;
      top: 50%;
-     left: 30%;
+     left: 50%;
      transform: translate(-50%, -50%);
      border-radius: 15px 15px 0px 0px;
+     
      
 
 }
@@ -242,6 +255,7 @@ margin-bottom: 5px;
     padding-top: 30px;
     padding-bottom: 20px;
     
+    
 }
 #footer-text{
     text-align: center;
@@ -258,8 +272,8 @@ margin-bottom: 5px;
 
 
 h3 {
-	margin: 60px 15px 0;
-	padding: 0;
+	margin-left:15px;
+	padding-top: 10px;
 	font-weight: 300;
 }
 h3 span {
@@ -269,7 +283,8 @@ h3 span {
 }
 .column {
 	margin: 15px 15px 0;
-	padding: 0;
+    padding: 0;
+    
 }
 .column:last-child {
 	padding-bottom: 60px;
@@ -323,7 +338,6 @@ figure:hover+span {
 }
 
 
-/* Flashing */
 .hover13 figure:hover img {
 	opacity: 1;
 	-webkit-animation: flash 1.5s;
@@ -348,7 +362,7 @@ figure:hover+span {
 
 .button-bottom{
     position: relative;
-    left: 40%;
+    left: 42%;
     top: -90px;
 }
 
@@ -360,50 +374,86 @@ figure:hover+span {
 
 .container-1{
     display: flex;
-    align-items: flex-start;
+    align-items:stretch;
     position: relative;
     top: 30%;
     text-decoration: none;
-    padding:50px;
+    padding:30px;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content: space-between;
+    text-align: justify;
+    
     
     
 }
 
 .container-1 div{
-    color: blanchedalmond;
+    color: wheat;
     
 }
+
+h4{
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    font-size: 27px;
+}
+
+p{
+    line-height: 25xp;
+}
+
 
 .box-1{
     flex: 1;
     text-decoration: none;
     color: oldlace;
-    width: 15%;
+    margin-right: 40px;
+    padding: 10px, 0px,10px 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+    
 }
+
+.box-1:hover {
+    transform: scale(1.1);
+  }
 
 .box-2{
     flex: 1;
     text-decoration: none;
     color: oldlace;
-    width: 15%;
+    margin-right: 40px;
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
+
+.box-2:hover {
+    transform: scale(1.1);
+  }
 
 .box-3{
     flex: 1;
     text-decoration: none;
     color: oldlace;
-    width: 15%;
+    margin-right: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 }
+.box-3:hover {
+    transform: scale(1.1);
+  }
 
 #summary{
     font-size: 20px;
-    color: blanchedalmond;
+    color: whitesmoke;
     text-align: center;
-    border:1px solid blanchedalmond;
+    border:1px solid whitesmoke;
     padding: 5px;
     margin-left: 130px;
     margin-right: 130px;
@@ -417,4 +467,15 @@ figure:hover+span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.gallery-background{
+    background-color:rgba(59, 192, 148, 0.1);
+    background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4196a1, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4196a1, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vmax;
+
+
+
 }
